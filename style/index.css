@@ -1,0 +1,195 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/fon.jpg");
+	background-color: green;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #DB2A3B;
+	height: 160px;
+}
+.logo{
+	margin-left: 100px;
+}
+.nav_menu{
+	display: flex;
+	margin-right: 150px;
+}
+.nav_menu__link{
+	text-decoration: none;
+	color: white;
+	font-family: 'Asul', sans-serif;
+	font-size: 20px;
+	margin: 0 20px;
+}
+.title{
+	background-color: #DB2A3B;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 500px;
+	height: 70px;
+	margin-left: 400px;
+	margin-top: 100px;
+}
+.title_text{
+	color: white;
+	font-family: 'Asul', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+}
+.box_players{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.card{
+	display: flex;
+	background-color: #DB2A3B;
+	margin-bottom: 25px;
+    margin-right:50px;
+    text-align:center;
+    width:250px;
+    height: 300px;
+    flex-direction:column;
+    align-items:center;
+}
+.card__text{
+	color: white;
+	font-family: 'Asul', sans-serif;
+	text-align: center;
+}
+.histori_block_title{
+	margin-top: 200px;
+}
+.histori_block{
+	display: flex;
+	justify-content: space-between;
+}
+.text_area{
+	background-color: white;
+	display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:500px;
+    height: 450px;
+    color: black;
+	font-family: 'Asul', sans-serif;
+	margin-right: 120px;
+}
+.gallery{
+	flex-wrap: wrap;
+	width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.gallery__img{
+	float: left; 
+    width: 25%; 
+    padding: 10px; 
+    box-sizing: border-box
+}
+.gallery__img img{
+	display: flex;
+	width: 200px;
+    height: 100px;
+    padding: 10px;
+	background-color: #eee;
+	box-sizing: border-box;
+}
+footer{
+	margin-top: 150px;	
+}
+.footer{
+	display:flex;
+    width: 100%;
+   	text-align:center;
+    align-items:center;
+    background-color: #DB2A3B;
+    justify-content: space-between;
+}
+.social-icon {
+	display: flex;
+	font-size: 30px;
+	margin: 0 20px;
+}
+.icons{
+	display: flex;
+}
+.form_text{
+	display: flex;
+}
+form{
+  margin:0 auto;
+  max-width:95%;
+  box-sizing:border-box;
+  padding:40px;
+  border-radius:5px; 
+  background:RGBA(255,255,255,1);
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);  
+}
+.textbox{
+  height: 20px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: 'Asul', sans-serif;
+  font-size:18px; 
+  padding:10px;
+  margin-bottom:30px;  
+}
+.message:focus,
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+.message{
+   background: rgba(255, 255, 255, 0.4); 
+   width:100%;
+   height: 120px;
+   border:rgba(0,0,0,.3) 2px solid;
+   box-sizing:border-box;
+   -moz-border-radius: 3px;
+   font-size:18px;
+   font-family: 'Asul', sans-serif;
+   -webkit-border-radius: 3px;
+   border-radius: 3px; 
+   display:block;
+   padding:10px;
+   margin-bottom:30px;
+   overflow:hidden;
+}
+.button{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  background:#90c843;
+  color:#FFF;
+  font-family: 'Asul', sans-serif;
+  font-weight:400;
+  font-size: 16pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+.button:hover{
+  background:#80b438;
+}
+.arrow{
+	position: fixed;
+	font-size: 40px;
+	bottom: 50px;
+	right: 50px;
+	color: white;
+}
